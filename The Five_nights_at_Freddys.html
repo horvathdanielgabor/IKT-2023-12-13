@@ -5,33 +5,189 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FNAF</title>
-    <link rel="stylesheet" href="The Five_nights_at_Freddys.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="The Five_nights_at_Freddys.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <h1 id="white_text">FNaF 1</h1>
-    
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-        
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="/Kepek/Main_picture_1.jpg" alt="A fő három" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="/Kepek/Main_picture_2.jpg" alt="Az íroda" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="/Kepek/Main_picture_3.jpg" alt="Játék menű" class="d-block" style="width:100%">
-            </div>
+    <h1 id="white">FNaF 1</h1>
+    <img src="/Kepek/Main_picture_1.jpg" alt="A fő három">
+    <div class="alert alert-danger">
+        <strong>Veszély!</strong> Ez egy horror játék!
+    </div>
+    <img src="/Kepek/Main_picture_3.jpg" alt="A játék fő menűje">
+    <div class="container mt-3">
+        <h2>-ról, -ről</h2>
+        <button type="button" class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#demo">Története</button>
+        <div id="demo" class="collapse">
+            Egy Freddy Fazbear nevű pizériában, ahol animatronikus kabalák van felvetek éjjeli őrnek, s te elfogadtad a megkeresést! Összesen öt éjszakát kell túl élned, és még egy telefonos hangfelvételt is kapsz amiben elmagyarázák, hogy mi a dolgod. Az éjszakák haldtával az tünik fel neked, hogyaz animatronikus kabalák életre kelnek, és minden éjszakán rádakarnak rontani.
         </div>
-        
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
+    </div>
+    <div class="container mt-3">
+         <button type="button" class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#demo">Játékmenet</button>
+        <div id="demo" class="collapse">
+            Egy irodában kell túl élned amit nem hagyhatsz el! Van két ajtó a jobb és bal oldalon amiket le-fel lehet csukogatni, és még megvilágitani. Egy kamera amin tudod látni a pizzéria egyes részeit. Mivel a hely probál sporolni az energiával ezért egy megadot energia mennyiséget használhatsz csak, különben lemerülsz és véged. 12:00 AM-től 6:00 AM-ig kell túlélned.
+            <img src="/Kepek/Main_picture_2.jpg" alt="Az iróda">
+
+
+        </div>
+    </div>
+    <div class="container mt-3">
+        <button type="button" class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#demo">Az animatronikus kabalákról</button>
+        <div id="demo" class="collapse">
+            <button type="button" class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#demo">A Fő banda</button>
+            <div id="demo" class="collapse">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Freddy Fazbear
+                </button>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+  
+                            <div class="modal-header">
+                                <h4 class="modal-title">Freddy Fazbear</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+  
+                            <div class="modal-body">
+                                <img src="/Kepek/Freddy_Fazbear.png" alt="Freddy Fazbear">
+                                A legfőbb arca a cégnek.
+                            </div>
+  
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Bezárás</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Chica the chicken
+                </button>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+  
+                            <div class="modal-header">
+                                <h4 class="modal-title">Chica the chicken</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+  
+                            <div class="modal-body">
+                                <img src="/Kepek/Chica_the_chicken.webp" alt="Chica the chicken">
+                                Melék karakter.
+                            </div>
+  
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Bezárás</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Bonnie the bunny
+                </button>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+  
+                            <div class="modal-header">
+                                <h4 class="modal-title">Bonnie the bunny</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+  
+                            <div class="modal-body">
+                                <img src="/Kepek/Bonnie_the_bunny.jpg" alt="Bonnie the bunny">
+                                Melék karakter.
+                            </div>
+  
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Bezárás</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Foxy the pirate
+                </button>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+  
+                            <div class="modal-header">
+                                <h4 class="modal-title">Foxy the pirate</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+  
+                            <div class="modal-body">
+                                <img src="/Kepek" alt="Foxy the pirate">
+                                Melék karakter.
+                            </div>
+  
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Bezárás</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#demo">Rejtett karakterek</button>
+            <div id="demo" class="collapse">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Golden Freddy
+                </button>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+  
+                            <div class="modal-header">
+                                <h4 class="modal-title">Golden Freddy</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+  
+                            <div class="modal-body">
+                                <img src="/Kepek" alt="Golden Freddy">
+                                Halucináció és egyben nem eset
+                            </div>
+  
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Bezárás</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#demo">Rejtett karakterek</button>
+            <div id="demo" class="collapse">
+                <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">
+                    Spring Bonnie
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+  
+                            <div class="modal-header">
+                                <h4 class="modal-title">Spring Bonnie</h4>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+  
+                            <div class="modal-body">
+                                <img src="/Kepek" alt="Spring Bonniey">
+                                Elzárt rúha
+                            </div>
+  
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Bezárás</button>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
     </div>
 
 </body>
